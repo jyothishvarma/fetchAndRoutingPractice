@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+
+.nav-link {
+  border: 2px solid #d3d3d3;
+  min-width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.blog-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+.blog-image {
+  min-height: 200px;
+  width: 250px;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+.blog-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topic {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.blog-title {
+  font-family: roboto;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.avatar-img {
+  height: 36px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.author-name {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 350px;
+    width: 70%;
+    padding: 10px;
+  }
+  .blog-image {
+    height: 140px;
+    width: 100%;
+  }
+  .nav-link {
+    min-height: 400px;
+  }
+  .topic {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .blog-title {
+    font-size: 14px;
+  }
+  .avatar-img {
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  .author-name {
+    font-size: 12px;
+  }
+}
